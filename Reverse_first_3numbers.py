@@ -1,0 +1,10 @@
+s='123456789'
+k=3
+start=0
+end=k
+while end<=len(s):
+    temp=s[start:end]
+    a=temp[::-1]
+    print(a,end=" ")
+    start +=k
+    end += k
